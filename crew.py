@@ -3,7 +3,7 @@ from agents import product_finder_agent, product_describer_agent, negotiating_ag
 from tasks import product_finder_task, product_describer_task, negotiating_task, deals_offers_task, recommender_task, supervisor_task
 
 import os
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAAF1cFQJy_zDZKIx8NhZuHKBExZ7mHYLM'
+os.environ['GOOGLE_API_KEY'] = 'paste_your_Google_API_Key'
 
 # Forming the seller-focused crew with some enhanced configurations
 crew = Crew(
